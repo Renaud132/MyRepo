@@ -81,7 +81,7 @@
         * ik denk dat we dit moeten aanpassen naar read voor iedereen: **sudo chmod a+r index.php**
       * we zien ook dat de context fout is, is nu user_home en dit moet **httpd_sycontent_t** zijn
         * cmd hiervoor: **sudo restorecon -r /var/www** om de file context naar default value te brengen
-        
+  
 * Nu geven we nog is 192.168.56.8 in 
   * We zien de webpagina!!!
 
