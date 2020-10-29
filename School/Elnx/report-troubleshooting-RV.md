@@ -11,10 +11,14 @@
 ### Fase 1: Netwerk Acces Layer
 
 * Kabels checken : onder network in virtual box checken of onder het luik advanced van elke adapter "cable connected" is aangevinkt
+    
     * **oke**
 * Virtuele adapters checken, 1 is nat de andere is Itnet
   * Volgens mij moet de itnet veranderen naar een host-only adapter zoals in de demo
+    
     * **Verander adapter naar host-only adapter**
+    
+      
 
 ### Fase 2: Internet Layer
 
@@ -39,6 +43,8 @@
         * **sudo yum install bind-utils** moet werken want we hebben internet connectie door de nat interface
       * **dig icanhazip.com** geeft antwoord dus DNS werkt
 
+
+
 ### Fase 3: Transport layer
 
 * Services running?
@@ -61,12 +67,16 @@
     * ik zie http maar voor de secure versie erbij te hebben voegen we aan services https toe: **sudo firewall-cmd --add-service https --permanent**
     * herstarten van de service: **sudo firewall-cmd --reload**
 
+
+
 ### Application layer
 
 * Config file van apachectl checken via de apache test
   * apachectl configtest
     * syntax ok
     * ik krijg wel de Could not reliably determine the server's fully .. maar ik denk dat dit normaal is aangezien geen dns services
+
+
 
 ### Tijd om te testen
 
@@ -83,6 +93,8 @@
   
 * Nu geven we nog is 192.168.56.8 in 
   * We zien de webpagina!!!
+
+
 
 ## Eindresultaat
 
