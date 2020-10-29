@@ -19,7 +19,6 @@
 ### Fase 2: Internet Layer
 
 * Lokale netwerk configuratie:
-
   * Ip adres checken van elke adapter: **ip a** moet mij voor elke adapter een ip tonen
     * **Ip a** geeft aan dat Eth0 geen ip configuratie heeft dus ik ga naar zijn config bestand zoeken in: **/etc/sysconfig/network-scripts/**
       * ik weet welke adapter dus ik doe gewoon: **sudo vi /etc/syscinfig/network-scripts/ifcfg-eth0**
