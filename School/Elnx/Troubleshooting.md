@@ -30,7 +30,7 @@
 ###### Internet layer
 
 * Local network configurarion
-  * Ip adres checken: ip a 
+  * Ip adres checken: **ip a** 
     * Heeft elke adapter een Ip adr - subnet - dhcp or fixed ip 
     * Check configuration voor elke adapter **/etc/sysconfig/network-scripts/ifcfg-*** 
       * Voor elke adapter config file, openen met **vim ifcfg-eth0** (VB)
