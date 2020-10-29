@@ -11,7 +11,7 @@
 ### Fase 1: Netwerk Acces Layer
 
 * Kabels checken : onder network in virtual box checken of onder het luik advanced van elke adapter "cable connected" is aangevinkt
-    
+  
     * **oke**
 * Virtuele adapters checken, 1 is nat de andere is Itnet
   * Volgens mij moet de itnet veranderen naar een host-only adapter zoals in de demo
@@ -108,6 +108,10 @@ Alles werkt!
  ✓ The correct website should be served
 
 5 tests, 0 failures
+
+[FotoUitvoer](https://github.com/Renaud132/MyRepo/blob/main/School/Elnx/UitvoerWebsite.png)
+
+
 
 ## Referenties
 
